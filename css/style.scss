@@ -9,6 +9,7 @@ $color-main:#1d4872;
     border: 0.2px solid rgba(255, 0, 0, 0);
     color:black;
 }
+
 /* 會員登入 購物車 按扭區塊 */
 #button{
     margin: 10px auto;
@@ -115,21 +116,15 @@ $color-main:#1d4872;
             padding: 100px 20px;
             height: 100%;
         }
+        img{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
     }
     .buy-left {
         padding-right: 0;
     }
-}
-
-.btn-warning{
-    background-color:$color-main !important ;
-    color:#fff!important;
-    border: #1d4872!important;
-}
-
-.btn-warning:hover{
-    color:#7f8d99 !important ;
-    transition: 0.6s !important;
 }
 
  /* QnA */
@@ -161,7 +156,6 @@ $color-main:#1d4872;
     line-height: 21px;
     margin: 0px 0 20px 20px;
 }
-
 //RWD
 @media screen and (max-width: 767px) {
     .buy-left {
