@@ -132,6 +132,43 @@ $color-main:#1d4872;
     transition: 0.6s !important;
 }
 
+ /* QnA */
+    
+ .QnAcontainer {
+    width: 650px;
+    min-height: 900px;
+    margin: 50px auto;
+
+.QnAcontainer h1 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #1d4772b6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.QnAcontainer p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 21px;
+}
+
+.QnAcontainer li {
+    font-size: 12px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 21px;
+    margin: 0px 0 20px 20px;
+}
+
+// 分隔虛線
+// .QnAbox1{
+//     border-bottom-style: dotted;
+//     color:#1d4772b6;
+// }
+
+
 // RWD
 @media screen and (max-width: 767px) {
     .buy-left {
