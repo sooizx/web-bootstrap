@@ -6,7 +6,7 @@ $color-main:#1d4872;
     margin: 0;
     padding: 0;
     font-family: 微軟正黑體;
-    border: 0.2px solid rgba(255, 0, 0, 0.6);
+    border: 0.2px solid rgba(255, 0, 0, 0);
     color:black;
 }
 /* 會員登入 購物車 按扭區塊 */
@@ -39,6 +39,7 @@ $color-main:#1d4872;
 #logo a img{
     width: 45vh;
     margin: 10px 0;
+    padding: 5px 0;
     object-fit: cover;
 }
 // 主要導覽列
