@@ -37,7 +37,10 @@
 }
 
 #logo a img {
-  width: 350px;
+  width: 45vh;
+  margin: 10px 0;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .navbar {

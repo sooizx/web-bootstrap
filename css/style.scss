@@ -37,7 +37,9 @@ $color-main:#1d4872;
 }
 
 #logo a img{
-    width:350px;
+    width: 45vh;
+    margin: 10px 0;
+    object-fit: cover;
 }
 // 主要導覽列
 .navbar {
