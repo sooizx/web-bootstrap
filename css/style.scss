@@ -80,9 +80,11 @@ $color-main:#1d4872;
     img {
         width: 100%;
     }
+
     img:hover{
     opacity: 0.75;
     }
+
     h2 {
         font-size: 1em;
         padding-top: 5px;
@@ -105,6 +107,7 @@ $color-main:#1d4872;
     
     .buy-right {
         padding-left: 0;
+
         
         div {
             background-color:#7f8d99; 
@@ -113,12 +116,13 @@ $color-main:#1d4872;
             }
             
             text-align: center;
-            padding: 100px 20px;
+            padding: 75px 20px;
             height: 100%;
+            
         }
         img{
-            width: 100px;
-            height: 100px;
+            max-width: 120px;
+            object-fit: cover;
             text-align: center;
         }
     }
@@ -126,36 +130,49 @@ $color-main:#1d4872;
         padding-right: 0;
     }
 }
-
- /* QnA */
+    /* QnA */
     
- .QnAcontainer {
-    width: 650px;
-    min-height: 900px;
-    margin: 50px auto;
+    .QnAcontainer {
+        width: 600px;
+        height: 900px;
+        margin: 50px auto;
+    }
 
-.QnAcontainer h1 {
-    font-size: 26px;
-    font-weight: 500;
-    color: #1d4772b6;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.QnAcontainer p {
-    font-size: 12px;
-    font-weight: 400;
-    color: #555555;
-    line-height: 21px;
-}
-
-.QnAcontainer li {
-    font-size: 12px;
-    font-weight: 400;
-    color: #555555;
-    line-height: 21px;
-    margin: 0px 0 20px 20px;
-}
+    .QnAbox1{
+        margin: 20px 0;
+    }
+    .QnAbox2{
+        margin: 20px 0;
+    }
+    .QnAbox3{
+        margin: 20px 0;
+    }
+    .QnAcontainer h1 {
+        color:$color-main;
+        font-size: 26px;
+        font-weight: 500;
+    }
+    
+    .QnAcontainer p {
+        font-size: 12px;
+        font-weight: 400;
+        color: #555555;
+        line-height: 21px;
+    }
+    
+    .QnAcontainer li {
+        font-size: 12px;
+        font-weight: 400;
+        color: #555555;
+        line-height: 21px;
+        margin: 0 0 0 20px;
+    }
+    
+    .QnAcontainer summary {
+        color: #555555;
+        font-weight: 500;
+        margin: 10px 0;
+    }
 //RWD
 @media screen and (max-width: 767px) {
     .buy-left {

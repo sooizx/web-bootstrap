@@ -45,11 +45,11 @@
 }
 
 .navbar {
-  background-color:#1d4872 !important;
+  background-color: #1d4872 !important;
 }
 
 .nav-link {
-  color:#fff !important;
+  color: #fff !important;
   padding: 0 40px !important;
 }
 
@@ -111,16 +111,19 @@
 .row .buy-right div {
   background-color: #7f8d99;
   text-align: center;
-  padding: 100px 20px;
+  padding: 75px 20px;
   height: 100%;
 }
-.row .buy-right img {
-  width: 50px;
-  height: 50px;
-  text-align: center;
-}
+
 .row .buy-right div * {
   color: #fff !important;
+}
+
+.row .buy-right img {
+  max-width: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  text-align: center;
 }
 
 .row .buy-left {
@@ -129,24 +132,27 @@
 
 /* QnA */
 .QnAcontainer {
-  width: 650px;
-  min-height: 900px;
+  width: 600px;
+  height: 900px;
   margin: 50px auto;
 }
 
-.QnAcontainer img {
-  width: 100vw;
-  opacity: 0.55;
-  -o-object-fit: cover;
-     object-fit: cover;
+.QnAbox1 {
+  margin: 20px 0;
+}
+
+.QnAbox2 {
+  margin: 20px 0;
+}
+
+.QnAbox3 {
+  margin: 20px 0;
 }
 
 .QnAcontainer h1 {
+  color: #1d4872;
   font-size: 26px;
   font-weight: 500;
-  color: #1d4772b6;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .QnAcontainer p {
@@ -161,7 +167,13 @@
   font-weight: 400;
   color: #555555;
   line-height: 21px;
-  margin: 0px 0 20px 20px;
+  margin: 0 0 0 20px;
+}
+
+.QnAcontainer summary {
+  color: #555555;
+  font-weight: 500;
+  margin: 10px 0;
 }
 
 @media screen and (max-width: 767px) {
