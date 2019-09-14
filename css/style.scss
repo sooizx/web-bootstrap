@@ -6,7 +6,7 @@ $color-main:#1d4872;
     margin: 0;
     padding: 0;
     font-family: 微軟正黑體;
-    // border: 0.2px solid rgba(255, 0, 0, 0);
+    border: 0.2px solid rgba(255, 0, 0, 0);
     color:black;
 }
 /* 會員登入 購物車 按扭區塊 */
@@ -162,14 +162,7 @@ $color-main:#1d4872;
     margin: 0px 0 20px 20px;
 }
 
-// 分隔虛線
-// .QnAbox1{
-//     border-bottom-style: dotted;
-//     color:#1d4772b6;
-// }
-
-
-// RWD
+//RWD
 @media screen and (max-width: 767px) {
     .buy-left {
         padding-right: 15px !important;
