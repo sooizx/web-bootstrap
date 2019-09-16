@@ -38,9 +38,9 @@ $color-main:#1d4872;
 }
 
 #logo a img{
-    width: 45vh;
+    width: 43vh;
     margin: 10px 0;
-    padding: 5px 0;
+    padding: 10px 0;
     object-fit: cover;
 }
 // 主要導覽列
@@ -86,12 +86,12 @@ $color-main:#1d4872;
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 0.9em;
         padding-top: 5px;
         margin:0px;
         color:$color-main;
         text-align: center;
-        letter-spacing: 10px;
+        letter-spacing: 5px;
 
     }
     h3 {
@@ -129,6 +129,37 @@ $color-main:#1d4872;
     .buy-left {
         padding-right: 0;
     }
+}
+
+/* 標題區塊 */
+.title-box {
+    text-align: center;
+    margin: 10px 0; 
+}
+.title {
+    font-size:14px;
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+.title::before {
+    content: "＼";
+    padding-right: 20px;
+}
+
+.title::after {
+    content: "／";
+    padding-left: 20px;
+}
+
+.title-box h1 {
+    font-size:10px;
+    color:black;
+}
+
+.title-box h2 {
+    font-size:16px;
+    color:#1d4872;
 }
     /* QnA */
     
