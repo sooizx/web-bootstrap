@@ -163,6 +163,22 @@ $color-main:#1d4872;
 }
     /* QnA */
     
+    .QAtitle{
+        text-align: center;
+        font-size: 2em;
+        font-weight: 800;
+        color:$color-main;
+        margin:30px 0;
+    }
+    .QAtitle::before {
+        content: "＼";
+        padding-right: 20px;
+    }
+    
+    .QAtitle::after {
+        content: "／";
+        padding-left: 20px;
+    }
     .QnAcontainer {
         width: 600px;
         height: 900px;
@@ -204,6 +220,78 @@ $color-main:#1d4872;
         font-weight: 500;
         margin: 10px 0;
     }
+
+    /* 登入表單 */
+#login{
+    margin: 150px auto;
+    width: 1280px;
+    height: 900px;
+    display: grid;
+    grid-template-columns:50% 50%;
+  }
+  
+  .login-box{
+    height: 400px;
+  }
+  
+  .sginup{
+    color: #1d4872;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1;
+  }
+  
+  .join{
+    color: #1d4872;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1;
+  }
+  
+  form {
+    background-color:#fff;
+    width: 450px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1.3px solid #1d4772b6;
+    border-radius: 15px;
+  }
+  
+  #email,#password,#email02,#password02{
+    width: 100%;
+    background-color:#fff;
+    margin: 15px 0;
+    height: 30px;
+    border: 1px solid #1d4872;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 5px;
+    }
+  
+  fieldset {
+    border: 2px solid#1d4872;
+    margin: 10px 0;
+  }
+  
+  .btn{
+    background-color:#1d4872;
+    margin: 10px auto;
+    padding: 10px 30px;
+    border: 1px solid #1d4872;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 900;
+    text-decoration: none;
+    }
+  /* 預留文字 */
+  ::placeholder{
+    color:#ccc
+  }
+  
 //RWD
 @media screen and (max-width: 767px) {
     .buy-left {
