@@ -9,4 +9,8 @@ $(document).ready(function(){
   // 找到 html, body 執行動畫 ({動畫屬性: 值}, 時間);
         $('html, body').animate({scrollTop: 0}, 1000);
       });
+      $(window).scroll(function () { 
+        console.log('捲動中')
+        
+      });
   });
