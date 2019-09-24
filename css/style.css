@@ -386,6 +386,10 @@ fieldset {
   text-decoration: none;
 }
 
+.content li a:hover {
+  opacity: 0.75;
+}
+
 .content div {
   padding: 15px 0px;
   width: 90px;

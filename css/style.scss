@@ -356,6 +356,7 @@ $color-main:#1d4872;
     text-align: left;
 }
 
+
 .content li img {
     padding: 5px;
     width: 50px;
@@ -369,6 +370,11 @@ $color-main:#1d4872;
     color:#1d4872;
     text-decoration: none;
  }
+
+ .content li a:hover{
+    opacity: 0.75;
+ }
+
 
  .content div{
     padding: 15px 0px;
