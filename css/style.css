@@ -456,6 +456,7 @@ fieldset {
   vertical-align: middle;
   -o-object-fit: cover;
      object-fit: cover;
+  cursor: pointer;
 }
 
 .showbox02 {
