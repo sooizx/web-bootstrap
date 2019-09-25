@@ -456,7 +456,10 @@ fieldset {
   vertical-align: middle;
   -o-object-fit: cover;
      object-fit: cover;
-  cursor: pointer;
+}
+
+.abgne-block-20120106 a img:hover {
+  opacity: 0.65;
 }
 
 .showbox02 {
