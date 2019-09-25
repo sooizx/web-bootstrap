@@ -512,12 +512,12 @@ $color-main:#1d4872;
         margin-left: 200px;
         font-size: 1.5em;
     }
-    .product-imgdescribe  img{
-        margin-top: 30px;
-        padding:50px 0 ;
-        margin-left: 200px;
+    .product-img{
         width: 450px;
         object-fit: cover;
+        margin-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 
