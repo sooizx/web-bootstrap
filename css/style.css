@@ -343,7 +343,7 @@ fieldset {
 .inner {
   width: 100%;
   margin: 30px 50px;
-  padding: 0px 200px;
+  padding: 0px 100px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto auto;
@@ -419,17 +419,18 @@ fieldset {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 45% 55%;
-      grid-template-columns: 45% 55%;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  margin: 30px 50px;
 }
 
 .showbox01 {
-  width: 700px;
-  height: 700px;
-  border: 2px solid #1dd;
+  width: 600px;
+  height: 650px;
   vertical-align: middle;
-  margin: 30px 100px;
   padding: 30px 30px;
+  margin-top: 30px;
+  margin-left: 200px;
 }
 
 #show-image {
@@ -458,12 +459,67 @@ fieldset {
 }
 
 .showbox02 {
-  width: 700px;
-  height: 700px;
-  border: 2px solid #1dd;
+  width: 550px;
+  height: 550px;
   vertical-align: middle;
-  margin: 30px 100px;
   padding: 30px 30px;
+  margin-top: 30px;
+  margin-right: 200px;
+}
+
+.showbox02 .product-box-text h1 {
+  font-size: 1.5em;
+  color: #1d4872;
+  font-weight: 700;
+}
+
+.showbox02 .product-box-text h2 {
+  font-size: 1.3em;
+  color: #000000;
+  font-weight: 700;
+}
+
+.showbox02 .product-box-text p {
+  font-size: 0.9em;
+  color: #000000;
+}
+
+.showbox02 .product-box-text ul {
+  padding: 0px 25px;
+}
+
+.showbox02 .product-box-text ul li {
+  font-size: 0.8em;
+}
+
+.shopping-notes {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.pay-box img {
+  width: 120px;
+}
+
+.product-imgdescribe {
+  width: 100%;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.product-imgdescribe .product-imgdescribe h4 {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.product-imgdescribe .product-imgdescribe img {
+  margin-top: 30px;
+  padding: 50px 0;
+  margin-left: 200px;
+  width: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* 當螢幕寬度小於等於 1023 像素 - 平板 */
