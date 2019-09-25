@@ -524,13 +524,29 @@ $color-main:#1d4872;
 // about me
 .aboutme{
     width: 100%;
-    text-align: center;
     margin-top: 30px;
+    text-align: center;
+    vertical-align: middle;
+
+    .aboutme-title{
+        color:$color-main;
+        font-size: 2em;
+        font-weight: 800; 
+        padding-bottom: 15px;
+        border-bottom: 1px dashed #000;
+    }
+    
     p{
         width: 900px;
         margin-top: 30px;
         text-align: left;
-    }
+        display: block;
+        font-weight: 400;
+        color: #333;
+        line-height: 160%;
+        letter-spacing: 1.5px;
+        }
+        
     #map{
         margin-top: 30px;
         width:600px;

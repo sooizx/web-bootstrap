@@ -549,14 +549,28 @@ fieldset {
 
 .aboutme {
   width: 100%;
-  text-align: center;
   margin-top: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.aboutme .aboutme-title {
+  color: #1d4872;
+  font-size: 2em;
+  font-weight: 800;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #000;
 }
 
 .aboutme p {
   width: 900px;
   margin-top: 30px;
   text-align: left;
+  display: block;
+  font-weight: 400;
+  color: #333;
+  line-height: 160%;
+  letter-spacing: 1.5px;
 }
 
 .aboutme #map {
