@@ -399,30 +399,49 @@ $color-main:#1d4872;
     bottom: 0;
 }
 // product-box
-.showbox {
-	width: 900px;
-	height: 100vh;
+.product-box{
+    width: 100%;
+    display: grid;
+    grid-template-columns:45% 55%;
+}
+.showbox01 {
+	width: 700px;
+	height: 700px;
 	border: 2px solid #1dd;
-	vertical-align: middle;
+    vertical-align: middle; 
+    margin: 30px 100px;
+    padding: 30px 30px;
 }
 
 #show-image{
     width: 550px;
     height: 550px;
+    object-fit: cover;
 }
 
 .abgne-block-20120106 {
 	margin-top: 10px;
 	width: 550px;
-	overflow: hidden;
+    overflow: hidden;
 }
 .abgne-block-20120106 a {
-	margin-right: 10px;
+    margin-right: 10px;
+   
 }
 .abgne-block-20120106 a img {
 	width: 100px;
-	height: 100px;
-	vertical-align: middle;
+    height: 100px;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.showbox02 {
+	width: 700px;
+	height: 700px;
+	border: 2px solid #1dd;
+    vertical-align: middle; 
+    margin: 30px 100px;
+    padding: 30px 30px;
 }
 
 

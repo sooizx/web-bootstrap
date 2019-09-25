@@ -415,16 +415,28 @@ fieldset {
   bottom: 0;
 }
 
-.showbox {
-  width: 900px;
-  height: 100vh;
+.product-box {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 45% 55%;
+      grid-template-columns: 45% 55%;
+}
+
+.showbox01 {
+  width: 700px;
+  height: 700px;
   border: 2px solid #1dd;
   vertical-align: middle;
+  margin: 30px 100px;
+  padding: 30px 30px;
 }
 
 #show-image {
   width: 550px;
   height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .abgne-block-20120106 {
@@ -441,6 +453,17 @@ fieldset {
   width: 100px;
   height: 100px;
   vertical-align: middle;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.showbox02 {
+  width: 700px;
+  height: 700px;
+  border: 2px solid #1dd;
+  vertical-align: middle;
+  margin: 30px 100px;
+  padding: 30px 30px;
 }
 
 /* 當螢幕寬度小於等於 1023 像素 - 平板 */
