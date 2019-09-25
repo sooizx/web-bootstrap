@@ -521,6 +521,22 @@ $color-main:#1d4872;
     }
 }
 
+// about me
+.aboutme{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    p{
+        width: 900px;
+        margin-top: 30px;
+        text-align: left;
+    }
+    #map{
+        margin-top: 30px;
+        width:600px;
+        height: auto;
+      }
+}
 
 //RWD
 /* 當螢幕寬度小於等於 1023 像素 - 平板 */

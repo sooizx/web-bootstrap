@@ -547,6 +547,24 @@ fieldset {
   padding-bottom: 30px;
 }
 
+.aboutme {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.aboutme p {
+  width: 900px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.aboutme #map {
+  margin-top: 30px;
+  width: 600px;
+  height: auto;
+}
+
 /* 當螢幕寬度小於等於 1023 像素 - 平板 */
 @media screen and (max-width: 1023px) {
   #footer {
