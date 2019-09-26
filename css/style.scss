@@ -404,7 +404,7 @@ $color-main:#1d4872;
     width: 100%;
     
     display: grid;
-    grid-template-columns:auto auto;
+    grid-template-columns:45% 55%;
     margin: 30px 50px;
   
    
@@ -415,12 +415,12 @@ $color-main:#1d4872;
     vertical-align: middle; 
     padding: 30px 30px;
     margin-top: 30px;
-    margin-left:200px;
+    margin-left:250px;
 }
 
 #show-image{
-    width: 550px;
-    height: 550px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
 }
 
@@ -450,7 +450,7 @@ $color-main:#1d4872;
     vertical-align: middle; 
     padding: 30px 30px;
     margin-top: 30px;
-    margin-right: 200px;
+    margin-right: 250px;
 
 
     .product-box-text h1{
@@ -504,7 +504,7 @@ $color-main:#1d4872;
     width: 100%;
     border-top: 1px dashed #000;
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 300px;
     padding-top:30px ;
 
     .product-imgdescribe  h4{
