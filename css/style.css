@@ -342,12 +342,12 @@ fieldset {
 
 .inner {
   width: 100%;
-  margin: 30px 50px;
-  padding: 0px 100px;
+  margin: 15px 20px;
+  padding: 5px 350px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto auto;
-      grid-template-columns: auto auto auto auto auto;
+  -ms-grid-columns: 19% 19% 19% 19% 24%;
+      grid-template-columns: 19% 19% 19% 19% 24%;
 }
 
 .h5 {
@@ -383,11 +383,12 @@ fieldset {
   width: 90px;
   font-weight: 400;
   color: #1d4872;
+  opacity: 0.65;
   text-decoration: none;
 }
 
 .content li a:hover {
-  opacity: 0.65;
+  opacity: 1;
 }
 
 .content div {

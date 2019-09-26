@@ -327,10 +327,10 @@ $color-main:#1d4872;
 
 .inner{
     width: 100%;
-    margin: 30px 50px;
-    padding: 0px 100px;
+    margin: 15px 20px;
+    padding: 5px 350px;
     display: grid;
-    grid-template-columns:auto auto auto auto auto;
+    grid-template-columns:19% 19% 19% 19% 24%;
   
 }
 
@@ -368,11 +368,12 @@ $color-main:#1d4872;
     width: 90px;
     font-weight: 400;
     color:#1d4872;
+    opacity: 0.65;
     text-decoration: none;
  }
 
  .content li a:hover{
-    opacity: 0.65;
+    opacity: 1;
  }
 
 
