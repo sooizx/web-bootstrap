@@ -563,21 +563,62 @@ fieldset {
   border-bottom: 1px dashed #000;
 }
 
-.aboutme p {
-  width: 900px;
+.aboutme h2 {
+  color: #1d4872;
   margin-top: 30px;
-  text-align: left;
-  display: block;
-  font-weight: 400;
-  color: #333;
-  line-height: 160%;
-  letter-spacing: 1.5px;
+}
+
+.aboutme p {
+  width: 50%;
+  margin-top: 30px;
+  font-weight: 600;
+  line-height: 200%;
+  color: #1d4872;
+  letter-spacing: 3px;
+  margin: auto;
 }
 
 .aboutme #map {
   margin-top: 30px;
   width: 600px;
   height: auto;
+  margin: auto;
+}
+
+#contactus {
+  width: 100%;
+  margin-top: 30px;
+  vertical-align: middle;
+}
+
+#contactus h2 {
+  color: #1d4872;
+}
+
+#contactus p {
+  margin-top: 30px;
+  color: #1d4872;
+}
+
+.contactus-box {
+  width: 600px;
+  height: 480px;
+  border: 1.5px solid #1d4772b6;
+  margin: auto;
+  padding: 10px 50px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+#name-box, #phone-box, #email-box, #content-box {
+  width: 100%;
+  background-color: #fff;
+  margin: 5px 0;
+  border: 1px solid #1d4872;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
 }
 
 /* 當螢幕寬度小於等於 1023 像素 - 平板 */
